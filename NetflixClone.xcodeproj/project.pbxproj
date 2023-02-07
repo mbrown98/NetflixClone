@@ -17,6 +17,7 @@
 		C5C1EC2D2989E29100C51E9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5C1EC2C2989E29100C51E9F /* Assets.xcassets */; };
 		C5C1EC302989E29100C51E9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5C1EC2F2989E29100C51E9F /* Preview Assets.xcassets */; };
 		C5C1EC392989E51B00C51E9F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C1EC382989E51B00C51E9F /* HomeView.swift */; };
+		C5DE3C742993163B004D3DA4 /* TopMoviePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DE3C732993163B004D3DA4 /* TopMoviePreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		C5C1EC2C2989E29100C51E9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5C1EC2F2989E29100C51E9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C5C1EC382989E51B00C51E9F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C5DE3C732993163B004D3DA4 /* TopMoviePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviePreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		C5C1EC272989E28F00C51E9F /* NetflixClone */ = {
 			isa = PBXGroup;
 			children = (
+				C5DE3C732993163B004D3DA4 /* TopMoviePreview.swift */,
 				C5C1EC282989E28F00C51E9F /* NetflixCloneApp.swift */,
 				C5C1EC2A2989E28F00C51E9F /* ContentView.swift */,
 				C5C1EC2C2989E29100C51E9F /* Assets.xcassets */,
@@ -165,6 +168,7 @@
 				C55F2A6A2989EA5E0050ABA1 /* HomeVM.swift in Sources */,
 				C5C1EC2B2989E28F00C51E9F /* ContentView.swift in Sources */,
 				C55F2A662989E8370050ABA1 /* StandardHomeMovie.swift in Sources */,
+				C5DE3C742993163B004D3DA4 /* TopMoviePreview.swift in Sources */,
 				C55F2A642989E7D50050ABA1 /* Movie.swift in Sources */,
 				C5C1EC292989E28F00C51E9F /* NetflixCloneApp.swift in Sources */,
 			);
