@@ -9,6 +9,9 @@ import SwiftUI
 
 struct HomeView: View {
     var vm = HomeVM()
+    
+    let screen: CGRect = UIScreen.main.bounds
+    
     var body: some View {
         ZStack {
             // full screen black background
@@ -19,6 +22,12 @@ struct HomeView: View {
                 // main VStack
                 // lazy vstack only loads views on the screen, plus 1-2 outside of view for smooth scrolling
                 LazyVStack {
+                    
+                    TopMoviePreview(movie: exampleMovie6)
+                        .frame(width: screen.width)
+                    // bump it up the screen
+                        .padding(.top, -110)
+                    
                     // the foreach loop needs a way to differentiate between each category, and here we are telling it that each will be unique, so swift can just use the hash of each value
                     ForEach(vm.allCategories, id: \.self) { category in
                         VStack {
