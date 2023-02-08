@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 // the ! bascially says that we know this url will work, and we are ok with force unwrapping this
 let exampleMovie1 = Movie(id: UUID().uuidString, name: "Dark", thumbnailURL: URL(string: "https://picsum.photos/200/301")!, categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"])
@@ -16,3 +17,8 @@ let exampleMovie5 = Movie(id: UUID().uuidString, name: "Hannibal", thumbnailURL:
 let exampleMovie6 = Movie(id: UUID().uuidString, name: "Afterlife", thumbnailURL: URL(string: "https://picsum.photos/200/306")!, categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"])
 
 let exampleMovies: [Movie] = [exampleMovie1, exampleMovie2, exampleMovie3, exampleMovie4, exampleMovie5, exampleMovie6]
+
+
+extension LinearGradient {
+    static let blackOpacityGradient = LinearGradient(gradient: Gradient(colors: [.black.opacity(0.0), .black.opacity(0.95)]), startPoint: .top, endPoint: .bottom)
+}

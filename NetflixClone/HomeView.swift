@@ -23,7 +23,7 @@ struct HomeView: View {
                 // lazy vstack only loads views on the screen, plus 1-2 outside of view for smooth scrolling
                 LazyVStack {
                     
-                    TopMoviePreview(movie: exampleMovie6)
+                    TopMoviePreview(movie: exampleMovie3)
                         .frame(width: screen.width)
                     // bump it up the screen
                         .padding(.top, -110)
